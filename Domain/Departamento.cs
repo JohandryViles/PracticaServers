@@ -5,8 +5,8 @@ namespace Domain;
 
 public class Departamento : Entidad
 {
-public Nombre Nombre { get; set; } = new Nombre(string.Empty);
-
+    public Nombre Nombre { get; set; } = new Nombre(string.Empty);
+    public int Id { get; set; }
     // public Dinero Precio { get; set; } = new Dinero(0, Moneda.USD);
 }
 
