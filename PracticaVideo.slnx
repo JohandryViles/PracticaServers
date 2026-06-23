@@ -3,4 +3,5 @@
     <Project Path="APi/Api.csproj" />
   </Folder>
   <Project Path="Application/Application.csproj" />
+  <Project Path="Domain/Domain.csproj" />
 </Solution>
